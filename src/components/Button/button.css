@@ -1,0 +1,19 @@
+.button {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-green {
+    background-color: green;
+}
+
+.button-red {
+    background-color: red;
+}
+
+.button-blue {
+    background-color: blue;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Button from '../../components/Button';
+import './homePage.css';
 
 const HomePage = () => {
   return (
     <div>
       <h1>Home Page</h1>
       
-      <Link to="/gallery">
-        Go to my gallery
-      </Link>
+      <Button to="/gallery" text="Go to gallery" type="red" />
+      <Button to="/about" text="Go to About" type="green" />
     </div>
   )
 };
